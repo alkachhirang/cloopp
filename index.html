@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="./assets/images/png/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/root.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Cloopp</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -65,7 +66,7 @@
                                 <li><a onclick="opennav()" href="#brands"
                                         class="ff_outfit navline position-relative fw-normal fs_16 lh_100 text-white ">For
                                         Brands</a></li>
-                                <li><a onclick="opennav()" href="#about"
+                                <li><a onclick="opennav()" href="#recycling"
                                         class="ff_outfit navline position-relative fw-normal fs_16 lh_100 text-white ">About
                                         Us</a>
                                 </li>
@@ -83,9 +84,10 @@
 
                 </div>
             </nav>
-            <div class="container pt-md-5 pt-4">
+            <div id="works" class="container pt-md-5 pt-4">
                 <div class="row align-items-center pt-4 mt-sm-2">
-                    <div class="col-lg-7 col-12 pb_140">
+                    <div class="col-lg-7 col-12 pb_140" data-aos="fade-right" data-aos-easing="linear"
+                        data-aos-duration="600">
                         <h1 class="mw_617 fw-semibold fs_80 lh_111 text-white ff_outfit mb-3">Recycle. Reward. <span
                                 class="ff_rainbow fw-normal fs_64 ls_1">with
                                 Cloopp</span></h1>
@@ -101,8 +103,8 @@
                                 class="br_4 mw_180 cursor_pointer">
                         </div>
                     </div>
-                    <div
-                        class="col-lg-5 position-relative col-12 d-flex justify-content-lg-end justify-content-center pt-5 pt-lg-0">
+                    <div class="col-lg-5 position-relative col-12 d-flex justify-content-lg-end justify-content-center pt-5 pt-lg-0"
+                        data-aos="fade-left" data-aos-easing="linear" data-aos-duration="600">
                         <img src="./assets/images/png/arrow-hero.png" alt="arrow-hero"
                             class="position-absolute mw_130 arrow_img d-none d-xl-block">
                         <img src="./assets/images/png/hero-img.png" alt="hero-img" class="mw_530 w-100 cursor_pointer">
@@ -111,23 +113,25 @@
             </div>
         </div>
         <!--------------------------creating-a-greener------------------------>
-        <section class="position-relative">
+        <section id="brands" class="position-relative">
             <img src="./assets/images/png/creating-left-img.png" alt="creating-left-img"
                 class="position-absolute creating_left_img mw_275 w-100 d-none d-sm-block">
             <div class="container pt-sm-5 pt-4 pb-4">
                 <div class="d-flex justify-content-center align-items-center  ">
-                    <h2 class="ff_outfit fw-semibold fs_52 lh_120 mw_675 text-capitlize text_black text-center">Creating
+                    <h2 class="ff_outfit fw-semibold fs_52 lh_120 mw_675 text-capitlize text_black text-center"
+                        data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600">Creating
                         a
                         Greener World
                         Is Now As
                         Easy As 1-2-3</h2>
                 </div>
                 <div class="row pt-sm-5 pt-4">
-                    <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center">
+                    <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center" data-aos="fade-right"
+                        data-aos-easing="linear" data-aos-duration="600">
                         <img src="./assets/images/png/creating-img.png" alt="creating-img"
                             class="w-100 mw_357 relative z-1">
                     </div>
-                    <div class="col-lg-6 col-12">
+                    <div class="col-lg-6 col-12" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="600">
                         <div class="mb-4">
                             <div class="black_circle mb_20">
                                 <p class="ff_outfit fw-semibold fs_32 lh_111 mb-0">1</p>
@@ -176,7 +180,8 @@
                 class="w-100 start-0 bottom_1 position-absolute">
             <div class="container pt-lg-5 mt-5 pb-md-5 mb-lg-5">
                 <div class="row flex-column-reverse pb-4 pb-md-5 flex-lg-row justify-content-center align-items-center">
-                    <div class="col-lg-6 col-12 pt-2 pt-sm-4 pt-lg-0 position-relative z-1">
+                    <div class="col-lg-6 col-12 pt-2 pt-sm-4 pt-lg-0 position-relative z-1" data-aos="fade-right"
+                        data-aos-easing="linear" data-aos-duration="600">
                         <h2
                             class="text-white ff_outfit fw-semibold fs_52 lh_143 text-capitlize mb-3 mb-xl-0 text-lg-start text-center ">
                             Recycling Has Never
@@ -303,7 +308,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-12 d-flex justify-content-center justify-content-lg-end">
+                    <div class="col-lg-6 col-12 d-flex justify-content-center justify-content-lg-end"
+                        data-aos="fade-left" data-aos-easing="linear" data-aos-duration="600">
                         <div class="position-relative">
                             <img src="./assets/images/png/recycling-img.png" alt="recycling-img" class="w-100 mw_508">
                             <img src="./assets/images/png/recycling-ellips.png" alt="recycling-ellips"
@@ -318,11 +324,13 @@
             <img src="./assets/images/png/frequently-left-img.png" alt="frequently-left-img"
                 class="position-absolute end-0 mw_357 w-100 top_13">
             <div class="container pt-5 pb-5">
-                <h2 class="text-capitlize text-center fs_52 fw-semibold ff_outfit text_black mb_38">Frequently Asked
+                <h2 class="text-capitlize text-center fs_52 fw-semibold ff_outfit text_black mb_38" data-aos="fade-down"
+                    data-aos-easing="linear" data-aos-duration="600">Frequently Asked
                     Questions</h2>
                 <div>
                     <div class="accordion mw_957 mx-auto" id="accordionFrequently">
-                        <div class="accordion-item">
+                        <div class="accordion-item" data-aos="fade-down" data-aos-easing="linear"
+                            data-aos-duration="600">
                             <h2 class="accordion-header">
                                 <button class="accordion-button ff_outfit fw-medium fs_24 text_black" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
@@ -340,7 +348,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="accordion-item" data-aos="fade-down" data-aos-easing="linear"
+                            data-aos-duration="600">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed ff_outfit fw-medium fs_24 text_black"
                                     type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
@@ -358,7 +367,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="accordion-item" data-aos="fade-down" data-aos-easing="linear"
+                            data-aos-duration="600">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed ff_outfit fw-medium fs_24 text_black"
                                     type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
@@ -376,7 +386,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="accordion-item" data-aos="fade-down" data-aos-easing="linear"
+                            data-aos-duration="600">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed ff_outfit fw-medium fs_24 text_black"
                                     type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
@@ -398,7 +409,7 @@
                 </div>
         </section>
         <!----------------------------------Newsletter------------------------->
-        <section class="bg_blue position-relative">
+        <section id="careers" class="bg_blue position-relative">
             <img src="./assets/images/png/footer-layer.png" alt="footer-layer"
                 class="position-absolute bottom_1 start-0 w-100 z-1">
             <img src="./assets/images/png/newsletter-ellips.png" alt="newsletter-ellips"
@@ -408,7 +419,8 @@
             <img src="./assets/images/png/newsletter-layer.png" alt="newsletter-layer"
                 class="position-absolute start-0 top_1 w-100">
             <div class="container py_newsletter">
-                <div class="position-relative z-1">
+                <div class="position-relative z-1" data-aos="fade-down" data-aos-easing="linear"
+                    data-aos-duration="600">
                     <h2 class="ff_outfit fw-semibold fs_52 text-white text-center mb-1 mb-sm-3">Subscribe Newsletter
                     </h2>
                     <p class="ff_outfit fs_16 fw-normal text-center text-white mb-3">Subscribe to our newsletter for the
@@ -443,16 +455,16 @@
                             <div class="col-sm-4 col-6 d-flex justify-content-lg-end justify-content-start">
                                 <div>
                                     <ul class="p-0 m-0">
-                                        <li><a href="#about"
+                                        <li><a href="#recycling"
                                                 class="ff_outfit fw-normal fs_16 navline text-white opacity_80 footer_text position-relative mb-sm-3 mb-1 d-inline-block">About
                                                 Us</a></li>
-                                        <li><a href="#about"
+                                        <li><a href="#works"
                                                 class="ff_outfit fw-normal fs_16 navline text-white opacity_80 footer_text position-relative mb-sm-3 mb-1 d-inline-block">How
                                                 It Works</a></li>
-                                        <li><a href="#about"
+                                        <li><a href="#brands"
                                                 class="ff_outfit fw-normal fs_16 navline text-white opacity_80 footer_text position-relative mb-sm-3 mb-1 d-inline-block">For
                                                 Brands</a></li>
-                                        <li><a href="#about"
+                                        <li><a href="#Frequently"
                                                 class="ff_outfit fw-normal fs_16 navline text-white opacity_80 footer_text position-relative mb-sm-3 mb-1 d-inline-block">FAQs</a>
                                         </li>
                                     </ul>
@@ -528,8 +540,11 @@
     </section>
 
 
-
-
+    <!-------------------------aos---------------------------->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true, });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
