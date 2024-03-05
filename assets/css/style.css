@@ -444,7 +444,8 @@
 .pointer_event_none {
     pointer-events: none !important;
 }
-.loader{
+
+.loader {
     position: fixed;
     z-index: 10 !important;
     top: 0;
@@ -483,7 +484,7 @@
     }
 
     .cross .line {
-        transform: rotate(50deg) translate(17px, 14px);
+        transform: rotate(50deg) translate(17px, 13px);
     }
 
     .cross .line1 {
