@@ -152,4 +152,9 @@
     .pb_header {
         padding-bottom: 10px !important;
     }
+
+    .backToTopBtn {
+        width: 45px;
+        height: 45px;
+    }
 }
