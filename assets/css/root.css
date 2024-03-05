@@ -94,11 +94,19 @@
         padding-top: 230px !important;
         padding-bottom: 245px !important;
     }
+
+    .pb_header {
+        padding-bottom: 40px;
+    }
 }
 
 @media (min-width:1200px) and (max-width:1400px) {
     :root {
         --fs-5lg: 45px !important;
+    }
+
+    .pb_header {
+        padding-bottom: 50px !important;
     }
 }
 
@@ -139,5 +147,9 @@
 
     .top_1 {
         top: 0 !important;
+    }
+
+    .pb_header {
+        padding-bottom: 10px !important;
     }
 }

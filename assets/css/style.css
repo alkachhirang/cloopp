@@ -45,7 +45,7 @@
 
 .header_bg_img {
     background-image: url("/assets/images/png/header-bg-img.png");
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
@@ -112,6 +112,10 @@
 .arrow_img {
     left: -29%;
     bottom: 32%;
+}
+
+.pb_header {
+    padding-bottom: 30px !important;
 }
 
 /*--------------------creating-a-greener-----------------------*/
@@ -487,11 +491,15 @@
         left: -25%;
         bottom: 32%;
     }
+
+    .pb_header {
+        padding-bottom: 70px !important;
+    }
 }
 
 @media (min-width:1200px) {
     .min_vh_100 {
-        height: calc(100vh-90px);
+        height: calc(100vh-90px) !important;
     }
 
     .pb_140 {
@@ -508,6 +516,11 @@
 }
 
 @media (min-width:992px) {
+    .header_bg_img {
+        background-image: url("/assets/images/png/header-bg-img.png");
+        background-size: 100% 100%;
+    }
+
     .mw_448 {
         max-width: 448px;
     }
@@ -530,5 +543,11 @@
 
     .mw_957 {
         max-width: 957px !important;
+    }
+}
+
+@media (min-width:1700px) {
+    .pb_header {
+        padding-bottom: 110px !important;
     }
 }
