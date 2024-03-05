@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
 //------------------------------preloader-------------------------------
 setTimeout(() => {
     console.log("Delayed for 5 second.");
