@@ -18,6 +18,64 @@
     font-family: "Over the Rainbow", cursive;
 }
 
+:root {
+    --fs-4sm: 14px;
+    --fs-6sm: 16px;
+    --fs-8sm: 18.92px;
+    --fs-2md: 21.62px;
+    --fs-3md: 24px;
+    --fs-4md: 32px;
+    --fs-5md: 35.2px;
+    --fs-5lg: 52px;
+    --fs-2xl: 62.4px;
+    --fs-4xl: 64px;
+    --fs-xxl: 80px;
+}
+
+.fs_14 {
+    font-size: var(--fs-4sm) !important;
+}
+
+.fs_16 {
+    font-size: var(--fs-6sm) !important;
+}
+
+.fs_18 {
+    font-size: var(--fs-8sm);
+}
+
+.fs_21 {
+    font-size: var(--fs-2md);
+}
+
+.fs_24 {
+    font-size: var(--fs-3md) !important;
+}
+
+.fs_32 {
+    font-size: var(--fs-4md);
+}
+
+.fs_35 {
+    font-size: var(--fs-5md);
+}
+
+.fs_52 {
+    font-size: var(--fs-5lg);
+}
+
+.fs_62 {
+    font-size: var(--fs-2xl);
+}
+
+.fs_64 {
+    font-size: var(--fs-4xl);
+}
+
+.fs_80 {
+    font-size: var(--fs-xxl);
+}
+
 .navline::after {
     content: "";
     width: 0;
@@ -273,8 +331,8 @@
 
 /*-------------------------Newsletter------------------------ */
 .py_newsletter {
-    padding-top: 300px;
-    padding-bottom: 336px;
+    padding-top: 120px !important;
+    padding-bottom: 120px !important;
 }
 
 .top_11 {
@@ -447,10 +505,86 @@
     .mw_957 {
         max-width: 957px !important;
     }
+
+    .py_newsletter {
+        padding-top: 300px !important;
+        padding-bottom: 300px !important;
+    }
+    .pb_header{
+        padding-bottom: 50px !important;
+    }
 }
 
 @media (min-width:1700px) {
     .pb_header {
         padding-bottom: 110px !important;
+    }
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    :root {
+        --fs-5lg: 40px !important;
+        --fs-4xl: 60px !important;
+        --fs-xxl: 60px !important;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    :root {
+        --fs-5lg: 39px !important;
+    }
+
+    .py_newsletter {
+        padding-top: 200px !important;
+        padding-bottom: 200px !important;
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    :root {
+        --fs-5lg: 39px !important;
+        --fs-4xl: 60px !important;
+        --fs-xxl: 60px !important;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1400px) {
+    :root {
+        --fs-5lg: 45px !important;
+    }
+}
+
+@media (max-width:576px) {
+    :root {
+        --fs-6sm: 14px !important;
+        --fs-3md: 18px !important;
+        --fs-4xl: 41px !important;
+        --fs-5lg: 33px !important;
+        --fs-xxl: 43px !important;
+    }
+
+    .mw_180 {
+        max-width: 160px;
+    }
+
+    .mb_38 {
+        margin-bottom: 25px;
+    }
+
+    .pt_100 {
+        padding-top: 20px;
+    }
+
+    .recycle_ellips {
+        bottom: -31%;
+        right: -19%;
+    }
+
+    .top_1 {
+        top: 0 !important;
+    }
+
+    .pb_header {
+        padding-bottom: 10px !important;
     }
 }
