@@ -118,6 +118,13 @@
     padding-bottom: 30px !important;
 }
 
+.header_img {
+    transition: all 300ms linear !important;
+}
+
+.header_img:hover {
+    transform: scale(0.9) !important;
+}
 /*--------------------creating-a-greener-----------------------*/
 .mw_675 {
     max-width: 675px;
