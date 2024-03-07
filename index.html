@@ -16,12 +16,13 @@
 <body class="overflow-hidden">
     <section class="overflow-hidden">
         <!-------------------------back-to-top-------------------------->
-        <div id="backToTopBtn" class="backToTopBtn justify-content-center align-items-center">
+        <div id="backToTopBtn" class="backToTopBtn position-fixed justify-content-center align-items-center">
             <img src="/assets/images/png/back-to-top.png" alt="back-to-top" class="mw_30 mw_25 pb-1">
         </div>
         <!------------------------preloader------------------------------>
-        <div id="preloder" class="min-vh-100 w-100 header_bg_img loader">
-            <img src="./assets/images/png/nav-logo.png" alt="logo-img" class="mw_150 mb-3">
+        <div id="preloder"
+            class="min-vh-100 w-100 header_bg_img start-0 end-0 z_index_10 position-fixed d-flex justify-content-center align-items-center flex-column">
+            <img src="./assets/images/png/nav-logo.png" alt="logo-img" class="mw_146 mb-3">
             <svg class="mw_70" version="1.1" id="L7" xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100"
                 enableBackground="new 0 0 100 100" xmlSpace="preserve">
@@ -43,7 +44,7 @@
             </svg>
         </div>
         <!-------------------------header-section------------------------->
-        <div class="header_bg_img min_vh_100 position-relative pb_header">
+        <div class="header_bg_img position-relative pb_header">
             <img src="./assets/images/png/header_bottom_layer.png" alt="header_bottom_layer"
                 class="bottom-0 position-absolute w-100 start-0 z-1 mb_2">
             <nav class="bg_nav">
@@ -55,18 +56,18 @@
                         <ul id="navbar"
                             class=" ps-0 m-0 ff_outfit fw-normal fs_16 lh_100 d-flex flex-column list-unstyled flex-lg-row gap_36 justify-content-center align-items-center mobile_view z_7">
                             <li><a onclick="opennav()" href="#works"
-                                    class=" navline position-relative text-white opacity_90 footer_text ">How
+                                    class=" navline position-relative text-white opacity_80 footer_text ">How
                                     It Works</a>
                             </li>
                             <li><a onclick="opennav()" href="#brands"
-                                    class=" navline position-relative text-white opacity_90 footer_text ">For
+                                    class=" navline position-relative text-white opacity_80 footer_text ">For
                                     Brands</a></li>
                             <li><a onclick="opennav()" href="#recycling"
-                                    class=" navline position-relative text-white opacity_90 footer_text ">About
+                                    class=" navline position-relative text-white opacity_80 footer_text ">About
                                     Us</a>
                             </li>
                             <li><a onclick="opennav()" href="#careers"
-                                    class=" navline position-relative text-white opacity_90 footer_text ">Careers</a>
+                                    class=" navline position-relative text-white opacity_80 footer_text ">Careers</a>
                             </li>
                         </ul>
                         <div id="menubtn-icon" onclick="opennav()" class="d-lg-none z_index_8 pe-2 cursor_pointer ">
@@ -79,29 +80,29 @@
                 </div>
             </nav>
             <div id="works" class="container pt-md-5 pt-4">
-                <div class="row align-items-center pt-4 mt-sm-2">
+                <div class="row align-items-center justify-content-center pt-4 mt-sm-2">
                     <div class="col-lg-7 col-12 pb_140" data-aos="fade-right" data-aos-easing="linear"
                         data-aos-duration="600">
-                        <h1 class="mw_617 fw-semibold fs_80 lh_111 text-white ff_outfit mb-3">Recycle. Reward. <span
-                                class="ff_rainbow fw-normal fs_64 ls_1">with
+                        <h1 class=" fw-semibold fs_80 lh_111 text-white ff_outfit mb-3">Recycle. Reward. <span
+                                class="ff_rainbow fw-normal fs_64 ls_1 d-block">with
                                 Cloopp</span></h1>
-                        <p class="mw_448 ff_outfit fs_16 fw-normal lh_150 text-white mb_38 pt-1">Get exclusive discounts
+                        <p class="ff_outfit fs_16 fw-normal lh_150 text-white mb-4 pt-1">Get exclusive discounts
                             and
-                            coupons from the hottest brands every time you recycle
-                            and track your environmental impact
+                            coupons from the hottest brands <span class="d-lg-block">every time you recycle
+                                and track your environmental impact</span>
                             with the Cloopp App.</p>
-                        <div class="d-flex gap-sm-3 gap-2">
+                        <div class="d-flex gap-sm-3 gap-2 mt-lg-3">
                             <img src="./assets/images/png/app-store.png" alt="app-store"
                                 class="br_4 mw_180 cursor_pointer header_img">
                             <img src="./assets/images/png/google-pay.png" alt="google-pay"
                                 class="br_4 mw_180 cursor_pointer header_img">
                         </div>
                     </div>
-                    <div class="col-lg-5 position-relative col-12 d-flex justify-content-lg-end justify-content-center pt-5 pt-lg-0"
+                    <div class="col-lg-5 position-relative col-10 d-flex justify-content-lg-end justify-content-center pt-5 pt-lg-0"
                         data-aos="fade-left" data-aos-easing="linear" data-aos-duration="600">
                         <img src="./assets/images/png/arrow-hero.png" alt="arrow-hero"
                             class="position-absolute mw_130 arrow_img d-none d-xl-block">
-                        <img src="./assets/images/png/hero-img.png" alt="hero-img" class="mw_530 w-100 cursor_pointer">
+                        <img src="./assets/images/png/hero-img.png" alt="hero-img" class=" w-100 cursor_pointer">
                     </div>
                 </div>
             </div>
@@ -111,12 +112,12 @@
             <img src="./assets/images/png/creating-left-img.png" alt="creating-left-img"
                 class="position-absolute creating_left_img mw_275 w-100 d-none d-sm-block">
             <div class="container pt-sm-5 pt-4 pb-4">
-                <h2 class="ff_outfit mx-auto fw-semibold fs_52 lh_120 mw_675 text-capitlize text_black text-center"
+                <h2 class="ff_outfit mx-auto fw-semibold fs_52 lh_120 text-capitlize text_black text-center"
                     data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600">Creating
                     a
                     Greener World
-                    Is Now As
-                    Easy As 1-2-3</h2>
+                    Is Now <span class="d-lg-block">As
+                        Easy As 1-2-3</span></h2>
                 <div class="row pt-sm-5 pt-4">
                     <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center" data-aos="fade-right"
                         data-aos-easing="linear" data-aos-duration="600">
@@ -125,39 +126,43 @@
                     </div>
                     <div class="col-lg-6 col-12" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="600">
                         <div class="mb-4">
-                            <div class="black_circle mb_20">
+                            <div class="black_circle mb-3 d-flex justify-content-center align-items-center">
                                 <p class="ff_outfit fw-semibold fs_32 lh_111 mb-0">1</p>
                             </div>
-                            <p class="ff_outfit fw-medium fs_24 text_black lh_130 mb-2">Scan The Barcode Before
+                            <p class="ff_outfit fw-medium fs_24 text_black lh_130 mt-1 mb-2">Scan The Barcode Before
                                 Recycling
                             </p>
-                            <p class="ff_outfit fw-normal text_black fs_16 lh_150 mw_471">Open Cloopp, scan the
+                            <p class="ff_outfit fw-normal text_black fs_16 lh_150">Open Cloopp, scan the
                                 product's barcode,
                                 and
                                 rack up
                                 points with
-                                every item you keep
-                                out of the landfill.</p>
+                                <span class="d-lg-block">every item you keep
+                                    out of the landfill.</span>
+                            </p>
                         </div>
                         <div class="mb-4">
-                            <div class="black_circle mb_20">
+                            <div class="black_circle mb-3 d-flex justify-content-center align-items-center">
                                 <p class="ff_outfit fw-semibold fs_32 lh_111 mb-0">2</p>
                             </div>
-                            <p class="ff_outfit fw-medium fs_24 text_black lh_130 mb-2">Get Paid For Products You Use
+                            <p class="ff_outfit fw-medium mt-1 fs_24 text_black lh_130 mb-2">Get Paid For Products You
+                                Use
                             </p>
                             <p class="ff_outfit fw-normal text_black fs_16 lh_150 mw_471">Get rewarded for doing the
-                                right thing. Your daily items – from plastics to cardboard and beyond – are connected to
-                                the
-                                Cloopp App.</p>
+                                right thing. Your daily items – from plastics <span class="d-lg-block">to cardboard and
+                                    beyond – are connected to
+                                    the
+                                    Cloopp App.</span></p>
                         </div>
                         <div class="mb-4">
-                            <div class="black_circle mb_20">
-                                <p class="ff_outfit fw-semibold fs_32 lh_111 mb-0">3</p>
+                            <div class="black_circle mb-3 d-flex justify-content-center align-items-center">
+                                <p class="ff_outfit fw-semibold mt-1 fs_32 lh_111 mb-0">3</p>
                             </div>
                             <p class="ff_outfit fw-medium fs_24 text_black lh_130 mb-2">Reap The Rewards
                             </p>
-                            <p class="ff_outfit fw-normal text_black fs_16 lh_150 mw_471">Earn exclusive coupons, promo
-                                codes, and cashback from the hottest brands and track your environmental impact.</p>
+                            <p class="ff_outfit fw-normal text_black fs_16 lh_150">Earn exclusive coupons, promo
+                                codes, and cashback from the <span class="d-lg-block">hottest brands and track your
+                                    environmental impact.</span></p>
                         </div>
                     </div>
                 </div>
@@ -171,78 +176,83 @@
                 class="w-100 start-0 bottom_1 position-absolute">
             <div class="container pt-lg-5 mt-5 pb-md-5 mb-lg-5">
                 <div class="row flex-column-reverse pb-4 pb-md-5 flex-lg-row justify-content-center align-items-center">
-                    <div class="col-lg-6 col-12 pt-2 pt-sm-4 pt-lg-0 position-relative z-1" data-aos="fade-right"
+                    <div class="col-lg-6 col-12 pt-2 pt-sm-0 position-relative z-1" data-aos="fade-right"
                         data-aos-easing="linear" data-aos-duration="600">
                         <h2
-                            class="text-white ff_outfit fw-semibold fs_52 lh_143 text-capitlize mb-3 mb-xl-0 text-lg-start text-center ">
+                            class="text-white ff_outfit fw-semibold fs_52 lh_143 text-capitlize mb-lg-3 mb-xl-0 text-lg-start text-center ">
                             Recycling Has Never
                             Been This Easy
                             and Rewarding
                         </h2>
-                        <div class="accordion mw_513 pt-4" id="accordionExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button
-                                        class="accordion-button ff_outfit fw-medium fs_24 text-white d-flex align-items-center gap_19"
-                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
-                                        aria-expanded="true" aria-controls="collapseFive">
-                                      <img src="./assets/images/svg/home.svg" alt="home">
-                                        Exclusive Coupons & Rewards
-                                    </button>
-                                </h2>
-                                <div id="collapseFive"
-                                    class="accordion-collapse collapse show ff_outfit fs_16 fw-normal text-white"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Cloopp partners with amazing brands to bring you coupons and deals you simply
-                                        can’t get anywhere else.
+                        <div class="pe-lg-5 me-lg-5">
+                            <div class="accordion pe-lg-4 mt-4" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button
+                                            class="accordion-button ff_outfit fw-medium fs_24 text-white d-flex align-items-center gap_19"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                            aria-expanded="true" aria-controls="collapseFive">
+                                            <img src="./assets/images/svg/home.svg" alt="home">
+                                            Exclusive Coupons & Rewards
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFive"
+                                        class="accordion-collapse collapse show ff_outfit fs_16 fw-normal text-white"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Cloopp partners with amazing brands to bring you coupons and deals you
+                                            simply
+                                            can’t get anywhere else.
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button
-                                        class="accordion-button collapsed ff_outfit fw-medium fs_24 text-white d-flex align-items-center gap_19"
-                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix"
-                                        aria-expanded="false" aria-controls="collapseSix">
-                                    <img src="./assets/images/svg/location.svg" alt="location">
-                                        Track Your Environmental Impact
-                                    </button>
-                                </h2>
-                                <div id="collapseSix"
-                                    class="accordion-collapse collapse ff_outfit fs_16 fw-normal text-white"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Cloopp partners with amazing brands to bring you coupons and deals you simply
-                                        can’t get anywhere else.
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button
+                                            class="accordion-button collapsed ff_outfit fw-medium fs_24 text-white d-flex align-items-center gap_19"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix"
+                                            aria-expanded="false" aria-controls="collapseSix">
+                                            <img src="./assets/images/svg/location.svg" alt="location">
+                                            Track Your Environmental Impact
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSix"
+                                        class="accordion-collapse collapse ff_outfit fs_16 fw-normal text-white"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Cloopp partners with amazing brands to bring you coupons and deals you
+                                            simply
+                                            can’t get anywhere else.
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button
-                                        class="accordion-button collapsed ff_outfit fw-medium fs_24 text-white d-flex align-items-center gap_19"
-                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven"
-                                        aria-expanded="false" aria-controls="collapseSeven">
-                                    <img src="./assets/images/svg/thumb.svg" alt="thumb">
-                                        Feel Good
-                                    </button>
-                                </h2>
-                                <div id="collapseSeven"
-                                    class="accordion-collapse collapse ff_outfit fs_16 fw-normal text-white"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Cloopp partners with amazing brands to bring you coupons and deals you simply
-                                        can’t get anywhere else.
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button
+                                            class="accordion-button collapsed ff_outfit fw-medium fs_24 text-white d-flex align-items-center gap_19"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+                                            aria-expanded="false" aria-controls="collapseSeven">
+                                            <img src="./assets/images/svg/thumb.svg" alt="thumb">
+                                            Feel Good
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSeven"
+                                        class="accordion-collapse collapse ff_outfit fs_16 fw-normal text-white"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Cloopp partners with amazing brands to bring you coupons and deals you
+                                            simply
+                                            can’t get anywhere else.
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-12 d-flex justify-content-center justify-content-lg-end"
+                    <div class="col-lg-5 col-10 d-flex justify-content-center justify-content-lg-end"
                         data-aos="fade-left" data-aos-easing="linear" data-aos-duration="600">
                         <div class="position-relative">
-                            <img src="./assets/images/png/recycling-img.png" alt="recycling-img" class="w-100 mw_508">
+                            <img src="./assets/images/png/recycling-img.png" alt="recycling-img" class="w-100">
                             <img src="./assets/images/png/recycling-ellips.png" alt="recycling-ellips"
                                 class="position-absolute mw_213 w-100 recycle_ellips">
                         </div>
@@ -255,85 +265,76 @@
             <img src="./assets/images/png/frequently-left-img.png" alt="frequently-left-img"
                 class="position-absolute end-0 mw_357 w-100 top_13">
             <div class="container pt-4 pt-sm-5 pb-4 pb-sm-5">
-                <h2 class="text-capitlize text-center fs_52 fw-semibold ff_outfit text_black mb_38" data-aos="fade-down"
+                <h2 class="text-capitlize text-center fs_52 fw-semibold ff_outfit text_black mb-4" data-aos="fade-down"
                     data-aos-easing="linear" data-aos-duration="600">Frequently Asked
                     Questions</h2>
-                <div>
-                    <div class="accordion mw_957 mx-auto" id="accordionFrequently">
-                        <div class="accordion-item" data-aos="fade-down" data-aos-easing="linear"
-                            data-aos-duration="600">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button ff_outfit fw-medium fs_24 text_black" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
-                                    aria-controls="collapseOne">
-                                    What products can I scan?
-                                </button>
-                            </h2>
-                            <div id="collapseOne"
-                                class="accordion-collapse collapse show ff_outfit fs_16 fw-normal mw_758 text_black"
-                                data-bs-parent="#accordionFrequently">
-                                <div class="accordion-body">
-                                    You can scan any product with a barcode before you recycle, no matter what it’s made
-                                    of. Cloopp rewards you for your
-                                    positive actions!
-                                </div>
+                <div class="accordion mw_957 mt-lg-3 mx-auto" id="accordionFrequently">
+                    <div class="accordion-item" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button ff_outfit fw-medium fs_24 text_black" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                aria-controls="collapseOne">
+                                What products can I scan?
+                            </button>
+                        </h2>
+                        <div id="collapseOne"
+                            class="accordion-collapse collapse show ff_outfit fs_16 fw-normal text_black"
+                            data-bs-parent="#accordionFrequently">
+                            <div class="accordion-body">
+                                You can scan any product with a barcode before you recycle, no matter what it’s made
+                                of. Cloopp <span class="d-lg-block">rewards you for your
+                                    positive actions!</span>
                             </div>
                         </div>
-                        <div class="accordion-item" data-aos="fade-down" data-aos-easing="linear"
-                            data-aos-duration="600">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed ff_outfit fw-medium fs_24 text_black"
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                    aria-expanded="false" aria-controls="collapseTwo">
-                                    Where can I use my rewards?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo"
-                                class="accordion-collapse collapse ff_outfit fs_16 fw-normal mw_758 text_black"
-                                data-bs-parent="#accordionFrequently">
-                                <div class="accordion-body">
-                                    You can scan any product with a barcode before you recycle, no matter what it’s made
-                                    of. Cloopp rewards you for your
-                                    positive actions!
-                                </div>
+                    </div>
+                    <div class="accordion-item" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed ff_outfit fw-medium fs_24 text_black"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                aria-expanded="false" aria-controls="collapseTwo">
+                                Where can I use my rewards?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse ff_outfit fs_16 fw-normal text_black"
+                            data-bs-parent="#accordionFrequently">
+                            <div class="accordion-body">
+                                You can scan any product with a barcode before you recycle, no matter what it’s made
+                                of. Cloopp rewards <span class="d-lg-block">you for your
+                                    positive actions!</span>
                             </div>
                         </div>
-                        <div class="accordion-item" data-aos="fade-down" data-aos-easing="linear"
-                            data-aos-duration="600">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed ff_outfit fw-medium fs_24 text_black"
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                    aria-expanded="false" aria-controls="collapseThree">
-                                    What kind of impact can I make?
-                                </button>
-                            </h2>
-                            <div id="collapseThree"
-                                class="accordion-collapse collapse ff_outfit fs_16 fw-normal mw_758 text_black"
-                                data-bs-parent="#accordionFrequently">
-                                <div class="accordion-body">
-                                    You can scan any product with a barcode before you recycle, no matter what it’s made
-                                    of. Cloopp rewards you for your
-                                    positive actions!
-                                </div>
+                    </div>
+                    <div class="accordion-item" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed ff_outfit fw-medium fs_24 text_black"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                aria-expanded="false" aria-controls="collapseThree">
+                                What kind of impact can I make?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse ff_outfit fs_16 fw-normal text_black"
+                            data-bs-parent="#accordionFrequently">
+                            <div class="accordion-body">
+                                You can scan any product with a barcode before you recycle, no matter what it’s made
+                                of. Cloopp rewards <span class="d-lg-block">you for your
+                                    positive actions!</span>
                             </div>
                         </div>
-                        <div class="accordion-item" data-aos="fade-down" data-aos-easing="linear"
-                            data-aos-duration="600">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed ff_outfit fw-medium fs_24 text_black"
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                    aria-expanded="false" aria-controls="collapseFour">
-                                    Which brands do you partner with?
-                                </button>
-                            </h2>
-                            <div id="collapseFour"
-                                class="accordion-collapse collapse ff_outfit fs_16 fw-normal mw_758 text_black"
-                                data-bs-parent="#accordionFrequently">
-                                <div class="accordion-body">
-                                    You can scan any product with a barcode before you recycle, no matter what it’s made
-                                    of. Cloopp rewards you for your
-                                    positive actions!
-                                </div>
+                    </div>
+                    <div class="accordion-item" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed ff_outfit fw-medium fs_24 text_black"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                aria-expanded="false" aria-controls="collapseFour">
+                                Which brands do you partner with?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse ff_outfit fs_16 fw-normal text_black"
+                            data-bs-parent="#accordionFrequently">
+                            <div class="accordion-body">
+                                You can scan any product with a barcode before you recycle, no matter what it’s made
+                                of. Cloopp rewards <span class="d-lg-block">you for your
+                                    positive actions!</span>
                             </div>
                         </div>
                     </div>
@@ -374,12 +375,12 @@
                             <img src="./assets/images/png/footer-logo.png" alt="footer-logo"
                                 class="w-100 mw_146 mb-2 mb-lg-3 cursor_pointer">
                         </a>
-                        <p class="ff_outfit fw-normal fs_16 text-white opacity_80 mw_345">Cloopp revolutionizes
+                        <p class="ff_outfit fw-normal fs_16 text-white opacity_80">Cloopp revolutionizes
                             recycling for
-                            everyone. Join, earn,
-                            and
-                            support
-                            sustainability.</p>
+                            everyone. <span class="d-lg-block">Join, earn,
+                                and
+                                support
+                                sustainability.</span></p>
                     </div>
                     <div class="col-lg-7 col-12">
                         <div class="row mt-2 mt-sm-3 mt-lg-0">
@@ -416,18 +417,21 @@
                                 class="col-sm-4 col-6 pt-3 pt-sm-0 d-flex justify-content-lg-end justify-content-start">
                                 <div>
                                     <p class="ff_outfit fs_16 text-white opacity_80 footer_text mb-3">Follow Us</p>
-                                    <div class="d-flex gap_10">
+                                    <div class="d-flex gap-2">
                                         <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank">
                                             <img src="./assets/images/svg/insta.svg" alt="insta" class="footer_icon">
                                         </a>
                                         <a href="https://www.facebook.com/" target="_blank">
-                                            <img src="./assets/images/svg/facebook.svg" alt="facebook" class="footer_icon">
+                                            <img src="./assets/images/svg/facebook.svg" alt="facebook"
+                                                class="footer_icon">
                                         </a>
                                         <a href="https://twitter.com/login" target="_blank">
-                                            <img src="./assets/images/svg/twitter.svg" alt="twitter" class="footer_icon">
+                                            <img src="./assets/images/svg/twitter.svg" alt="twitter"
+                                                class="footer_icon">
                                         </a>
                                         <a href="https://web.telegram.org/" target="_blank">
-                                        <img src="./assets/images/svg/teligram.svg" alt="teligram" class="footer_icon">
+                                            <img src="./assets/images/svg/teligram.svg" alt="teligram"
+                                                class="footer_icon">
                                         </a>
                                     </div>
                                 </div>
@@ -436,7 +440,7 @@
                     </div>
                 </div>
             </div>
-            <div class="footer_line position-relative"></div>
+            <div class="footer_line  position-relative"></div>
             <p class="ff_outfit fw-normal fs_14 text-white opacity_80 py-3 mb-0 text-center">© 2024 Cloopp</p>
 
         </section>
@@ -451,4 +455,5 @@
         crossorigin="anonymous"></script>
     <script src="./assets/js/app.js"></script>
 </body>
+
 </html>

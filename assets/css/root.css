@@ -72,9 +72,6 @@
 @media (min-width:768px) and (max-width:992px) {
     :root {
         --fs-5lg: 39px !important;
-        --fs-2xl: 62.4px;
-        --fs-4xl: 64px;
-        --fs-xxl: 80px;
     }
 
     .py_newsletter {
@@ -113,12 +110,7 @@
 @media (max-width:576px) {
     :root {
         --fs-6sm: 14px !important;
-        --fs-8sm: 18.92px;
-        --fs-2md: 21.62px;
-        --fs-4md: 24px;
         --fs-3md: 18px !important;
-        --fs-5lg: 28px;
-        --fs-2xl: 62.4px;
         --fs-4xl: 41px !important;
         --fs-xxl: 43px !important;
     }
@@ -151,10 +143,5 @@
 
     .pb_header {
         padding-bottom: 10px !important;
-    }
-
-    .backToTopBtn {
-        width: 45px;
-        height: 45px;
     }
 }
