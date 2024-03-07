@@ -434,7 +434,7 @@
     pointer-events: none !important;
 }
 
-@media (max-width:992px) {
+@media (max-width:991.98px) {
 
     .overflow_hidden {
         overflow: hidden !important;
@@ -482,7 +482,7 @@
     }
 
     .pb_header {
-        padding-bottom: 70px !important;
+        padding-bottom: 45px !important;
     }
 }
 
@@ -509,9 +509,6 @@
     .py_newsletter {
         padding-top: 300px !important;
         padding-bottom: 300px !important;
-    }
-    .pb_header{
-        padding-bottom: 50px !important;
     }
 }
 
@@ -545,6 +542,10 @@
         --fs-5lg: 39px !important;
         --fs-4xl: 60px !important;
         --fs-xxl: 60px !important;
+    }
+
+    .pb_header {
+        padding-bottom: 40px !important;
     }
 }
 
